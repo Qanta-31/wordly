@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto; /* Centers the content horizontally */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center; /* Center the heading */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 14px;
+  font-size: 16px; /* Increase font size for better readability */
+  line-height: 1.6;
+}
+
+li strong {
+  font-size: 16px; /* Make the word stand out more */
+  color: black;
+}
+
+
+/* Search Bar Styling */
+#searchBar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; /* Adds space below the search bar */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size for readability */
+  background-color: #f9f9f9; /* Slightly gray background */
+}
+
+#searchBar:focus {
+  outline: none; /* Removes the default blue outline */
+  border-color: #4CAF50; /* Green border on focus */
+  background-color: #ffffff; /* White background when focused */
+}
